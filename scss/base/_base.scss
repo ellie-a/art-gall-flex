@@ -21,6 +21,15 @@ section {
   @extend %tile;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1350px;
+  margin: auto;
+}
+
 .top-nav {
   display: flex;
   justify-content: space-between;
@@ -54,7 +63,16 @@ section {
   select {
     -webkit-appearance: none;
     padding: 15px 50px;
+    color: $grey;
     // width: 10%;
+  }
+  input {
+    width: 20%;
+    padding: 15px 50px;
+    border-color: $white;
+    border: none;
+
+
   }
 }
 
