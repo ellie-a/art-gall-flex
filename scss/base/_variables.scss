@@ -4,6 +4,7 @@ $black: black;
 $white: white;
 $grey: #929292;
 $dark-grey: #5C5C5C;
+$red: #CC3333;
 
 
 //color uses:
@@ -13,3 +14,7 @@ $dark-grey: #5C5C5C;
 
 $font-stack: helvetica, sans-serif;
 $font-main: 'Lato', $font-stack;
+
+//media queries
+
+$brk-md: '(max-width: 1150px)';

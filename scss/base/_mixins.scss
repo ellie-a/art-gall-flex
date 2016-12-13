@@ -28,6 +28,13 @@
 
 %select {
     -webkit-appearance: none;
-    padding: 15px 50px;
-    color: $grey;
+    padding: 10px 30px;
+    background-color: $dark-grey;
+    border-radius: 20px;
+    background-image: url('../img/down-arrow.png');
+    background-position: 89% 54%;
+    background-repeat: no-repeat;
+    font-size: 1.1rem;
+    border: none;
+    color: $white
 }
