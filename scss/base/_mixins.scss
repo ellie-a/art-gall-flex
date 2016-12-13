@@ -1,0 +1,25 @@
+//mixins
+
+
+//placeholders
+
+
+%tile {
+  p,span,i {
+    color: $grey;
+    padding-right: 1px;
+  }
+
+  .fa-circle {
+    transform: scale(0.5);
+    color: darken($grey, 30%);
+  }
+  a {
+    color: $white;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+  }
+}
