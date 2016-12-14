@@ -63,8 +63,7 @@ body {
   margin-left: 35px;
   margin-right: 35px; }
   .top-nav img {
-    margin-top: 10px;
-    margin-left: 5%; }
+    margin-top: 10px; }
   .top-nav ul {
     display: flex;
     list-style-type: none;
